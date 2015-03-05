@@ -27,7 +27,7 @@ func findNextPeer(val int) int {
 }
 
 func genFingerTable(nodeID int) {
-	fmt.Printf("FT for node %d\n", nodeID)
+	fmt.Printf("node %d\n", nodeID)
 	for i := 0; i < m; i++ {
 		n := (nodeID + intgr.Pow(2, i)) % (intgr.Pow(2, m))
 		fmt.Printf("%d: [%d] %d\n", i, n, findNextPeer(n))

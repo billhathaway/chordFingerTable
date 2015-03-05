@@ -5,7 +5,7 @@ Each FT line consists of
 FT index, value, peer    
 
 Example:  
-    ./chordFingerTable -m 7 -peers 1,33,42,80,99,110
+    ./chordFingerTable -m 7 -peers 1,33,42,80,99,110  
     FT for node 1
     0: [2] 33
     1: [3] 33
